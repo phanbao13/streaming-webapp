@@ -1,0 +1,44 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# ===== Virtualenv =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Django =====
+staticfiles/
+media/
+local_settings.py
+.env
+
+
+# ===== Migrations =====
+000*_*.py
+
+# ===== Pytest =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Docker =====
+*.tar
+docker-compose-override.yml
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+
+# ===== Extras =====
+STEPS
